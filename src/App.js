@@ -23,27 +23,25 @@ function App() {
     );
   };
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          {publicRoutes.map((route, index) => RouteRender(route, index))}
-          {JSON.parse(localStorage.getItem("isLoggedIn")) &&
-            privateRoutes.map((route, index) => RouteRender(route, index))}
-        </Routes>
-        <ToastContainer
-          position="top-right"
-          autoClose={3000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="light"
-        />
-      </div>
-    </Router>
+    <div className="App">
+      <Routes>
+        {publicRoutes.map((route, index) => RouteRender(route, index))}
+        {JSON.parse(localStorage.getItem("isLoggedIn")) &&
+          privateRoutes.map((route, index) => RouteRender(route, index))}
+      </Routes>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
+    </div>
   );
 }
 
