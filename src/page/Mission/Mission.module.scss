@@ -1,0 +1,68 @@
+.title {
+  font-size: 30px;
+  font-family: "PoetsenOne";
+  color: #5f4b74;
+}
+.list-empty {
+  height: 65vh;
+}
+.btn-done {
+  border-radius: 30px;
+  background-color: #9a3d66;
+  font-family: "Libre Bonodi";
+  outline: none;
+  border: 0;
+  color: white;
+}
+.btn-done:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.btn-reviewing {
+  background-color: #979190;
+}
+.btn-reviewing:hover {
+  cursor: default;
+  opacity: 1;
+}
+.mission-title,
+.mission-point {
+  font-family: "PoetsenOne";
+  font-size: 24px;
+  display: flex;
+}
+.mission-title > p,
+.mission-point > p {
+  margin: auto 0;
+}
+.mission-point {
+  font-size: 20px;
+}
+.circle-indexing {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  display: flex;
+  width: 40px !important;
+  height: 40px !important;
+}
+.indexing {
+  border-radius: 50%;
+  display: flex;
+  margin: auto;
+  color: #dab7b1;
+  width: 80%;
+  height: 80%;
+  background-color: white;
+}
+.indexing > p {
+  margin: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .mission-title {
+    font-size: 16px;
+  }
+  .mission-point {
+    font-size: 15px;
+  }
+}

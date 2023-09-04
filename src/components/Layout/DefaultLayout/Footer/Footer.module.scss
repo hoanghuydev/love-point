@@ -1,0 +1,92 @@
+.z-index-0 {
+  z-index: -1;
+}
+
+.footer-text {
+  z-index: 10;
+  width: 130%;
+}
+.title-text {
+  font-family: "PoetsenOne";
+  font-size: 31px;
+}
+.fix-text {
+  height: 60%;
+}
+.icon {
+  color: white;
+  font-size: 27px;
+}
+.about-text {
+  font-size: 20px;
+  font-family: "Libre Bodoni", serif;
+}
+.about-text {
+  margin: 0;
+}
+.footer-img {
+  width: 100%;
+  right: 0;
+  overflow-x: hidden;
+  user-select: none;
+}
+@media screen and (min-width: 1255px) {
+  .fix-text {
+    height: 100%;
+  }
+  .about-text {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 730px) and (max-width: 979px) {
+  .fix-text {
+    height: 46%;
+  }
+  .title-text {
+    font-size: 21px;
+  }
+  .icon {
+    color: white;
+    font-size: 17px;
+  }
+}
+@media screen and (min-width: 540px) and (max-width: 729px) {
+  .fix-text {
+    height: 70%;
+  }
+  .title-text {
+    font-size: 15px;
+  }
+  .icon {
+    color: white;
+    font-size: 16px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+  .footer-img {
+    width: 160%;
+    right: -110px;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .fix-text {
+    height: 40%;
+  }
+  .title-text {
+    font-size: 15px;
+  }
+  .icon {
+    color: white;
+    font-size: 16px;
+  }
+  .about-text {
+    font-size: 14px;
+  }
+  .footer-img {
+    width: 160%;
+    right: -110px;
+  }
+}

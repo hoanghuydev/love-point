@@ -1,0 +1,63 @@
+.background-fixed {
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 100;
+}
+.form-proof {
+  transition: all ease-in 2s;
+  opacity: 0;
+  animation: fadeIn 0.3s ease-in-out forwards;
+  background-color: #dab7b1;
+  border-radius: 20px;
+  box-shadow: 0px 7px 4px 0px rgba(7, 6, 6, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+.close {
+  top: 15px;
+  right: 15px;
+  font-size: 25px;
+}
+.close:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.title {
+  font-family: "PoetsenOne";
+}
+.form-input {
+  border: none;
+  background-color: transparent;
+  outline: white 3px solid;
+  border-radius: 30px;
+  padding-left: 30px !important;
+}
+.form-input:focus {
+  outline: #5f4b74 3px solid;
+}
+.form-input::placeholder,
+.form-input {
+  color: white;
+  opacity: 1;
+  font-family: "PoetsenOne";
+  font-size: 20px;
+}
+.submit {
+  border-radius: 30px;
+  background-color: #9a3d66;
+  font-family: "Libre Bonodi";
+  outline: none;
+  border: 0;
+  color: white;
+}
+.submit:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

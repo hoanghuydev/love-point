@@ -1,0 +1,22 @@
+.submit {
+  border-radius: 30px;
+  background-color: #9a3d66;
+  font-family: "Libre Bonodi";
+  outline: none;
+  border: 0;
+  color: white;
+}
+.submit:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.img-preview {
+  width: 60%;
+  max-height: 350px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.img-proof {
+  object-fit: cover;
+}

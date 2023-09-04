@@ -1,0 +1,54 @@
+.gift-card {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 7px 4px 0px rgba(7, 6, 6, 0.25);
+  overflow: hidden;
+}
+.img-card {
+  height: 250px;
+}
+.name-text,
+.point-text {
+  color: #dab7b1;
+  font-family: "PoetsenOne";
+}
+.name-text {
+  font-size: 20px;
+}
+.point-text {
+  font-size: 17px;
+}
+.btn-get-gift {
+  position: relative;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+.btn-get-gift > p {
+  font-family: "Lirbe Bonodi";
+  color: white;
+  position: absolute;
+  top: 18%;
+  left: 40%;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+}
+.btn-get-gift:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.disable-btn {
+  opacity: 0.7;
+}
+@media screen and (max-width: 700px) {
+  .img-card {
+    height: 150px;
+  }
+  .name-text {
+    font-size: 15px;
+  }
+  .point-text {
+    font-size: 12px;
+  }
+}
