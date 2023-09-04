@@ -15,7 +15,9 @@ root.render(
     <GlobalStyles>
       <Provider>
         <Router basename="/love-point">
-          <App />
+          <Switch>
+            <App />
+          </Switch>
         </Router>
       </Provider>
     </GlobalStyles>
