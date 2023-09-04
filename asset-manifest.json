@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/love-point/static/css/main.2d9f0ef5.css",
-    "main.js": "/love-point/static/js/main.c72b74e2.js",
+    "main.css": "/love-point/static/css/main.48955633.css",
+    "main.js": "/love-point/static/js/main.fea7d17f.js",
     "static/js/787.884af467.chunk.js": "/love-point/static/js/787.884af467.chunk.js",
     "static/media/fa-solid-900.ttf": "/love-point/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/saumui.jpg": "/love-point/static/media/saumui.3a0480ac1458d88ec431.jpg",
@@ -15,15 +15,16 @@
     "static/media/fa-regular-400.woff2": "/love-point/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
     "static/media/footer.png": "/love-point/static/media/footer.2c395e55b0893b58fe79.png",
     "static/media/cloudgiftfooter.png": "/love-point/static/media/cloudgiftfooter.ca42baa9a9a0aeb7abd6.png",
+    "static/media/illustatus.svg": "/love-point/static/media/illustatus.d37009be9768373cd5a302a0c6ba4d1d.svg",
     "static/media/fa-v4compatibility.ttf": "/love-point/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/love-point/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/love-point/index.html",
-    "main.2d9f0ef5.css.map": "/love-point/static/css/main.2d9f0ef5.css.map",
-    "main.c72b74e2.js.map": "/love-point/static/js/main.c72b74e2.js.map",
+    "main.48955633.css.map": "/love-point/static/css/main.48955633.css.map",
+    "main.fea7d17f.js.map": "/love-point/static/js/main.fea7d17f.js.map",
     "787.884af467.chunk.js.map": "/love-point/static/js/787.884af467.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d9f0ef5.css",
-    "static/js/main.c72b74e2.js"
+    "static/css/main.48955633.css",
+    "static/js/main.fea7d17f.js"
   ]
 }
