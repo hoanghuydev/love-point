@@ -5,6 +5,8 @@ import { privateRoutes, publicRoutes } from "./routes";
 import { DefaultLayout } from "~/components/Layout";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Page404 from "./components/Page404";
+import NoFooterLayout from "./components/Layout/NoFooterLayout";
 
 function App() {
   const RouteRender = (route, index) => {
@@ -28,6 +30,14 @@ function App() {
         {publicRoutes.map((route, index) => RouteRender(route, index))}
         {JSON.parse(localStorage.getItem("isLoggedIn")) &&
           privateRoutes.map((route, index) => RouteRender(route, index))}
+        <Route
+          path="/*"
+          element={
+            <NoFooterLayout>
+              <Page404 />
+            </NoFooterLayout>
+          }
+        />
       </Routes>
       <ToastContainer
         position="top-right"

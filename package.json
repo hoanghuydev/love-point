@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://hoanghuydev.github.io/love-point",
+  "homepage": "https://hoanghuydev.github.io/love-point",
   "name": "lovepointui",
   "version": "0.1.0",
   "private": true,
@@ -27,8 +27,8 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
