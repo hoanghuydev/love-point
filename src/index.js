@@ -14,7 +14,7 @@ root.render(
   <React.StrictMode>
     <GlobalStyles>
       <Provider>
-        <Router basename="/love-point">
+        <Router>
           <App />
         </Router>
       </Provider>
