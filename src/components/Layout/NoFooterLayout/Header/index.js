@@ -2,7 +2,10 @@ import React, { useEffect, useState } from "react";
 import headerImg from "~/png/header.png";
 import styles from "./Header.module.scss";
 import classNames from "classnames/bind";
+import logo from "~/png/logo.png";
+
 const cx = classNames.bind(styles);
+
 const Header = ({ user }) => {
   if (JSON.parse(localStorage.getItem("isLoggedIn"))) {
     return (
@@ -19,12 +22,7 @@ const Header = ({ user }) => {
         >
           <div className="container-fluid">
             <a className="navbar-brand mt-2 mt-lg-0" href="#">
-              <img
-                src="https://i.ibb.co/fXKK9L4-low-resolution-logo-color-on-transparent-background.png"
-                height="40"
-                alt="MDB Logo"
-                loading="lazy"
-              />
+              <img src={logo} height="40" alt="Love Point" loading="lazy" />
             </a>
             <button
               className="navbar-toggler text-white"
@@ -121,12 +119,7 @@ const Header = ({ user }) => {
       >
         <div className="container-fluid">
           <a className="navbar-brand mt-2 mt-lg-0" href="#">
-            <img
-              src="https://i.ibb.co/fXKK9L4-low-resolution-logo-color-on-transparent-background.png"
-              height="40"
-              alt="MDB Logo"
-              loading="lazy"
-            />
+            <img src={logo} height="40" alt="MDB Logo" loading="lazy" />
           </a>
           <button
             className="navbar-toggler text-white"
