@@ -5,7 +5,7 @@ const { default: Home } = require("~/page/Home");
 const { default: Login } = require("~/page/Login");
 
 const publicRoutes = [
-  { path: "/", component: Home },
+  { path: "/love-point/", component: Home },
   { path: "/login", component: Login },
 ];
 const privateRoutes = [
