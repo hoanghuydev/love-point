@@ -44,17 +44,20 @@ const Header = ({ user }) => {
             >
               <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ms-auto">
                 <li className="nav-item mx-4">
-                  <a className="nav-link text-white" href="/">
+                  <a className="nav-link text-white" href="/love-point/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item mx-4">
-                  <a className="nav-link text-white" href="/mission">
+                  <a className="nav-link text-white" href="/love-point/mission">
                     Mission
                   </a>
                 </li>
                 <li className="nav-item mx-4">
-                  <a className="nav-link text-white" href="/redeemed-gifts">
+                  <a
+                    className="nav-link text-white"
+                    href="/love-point/redeemed-gifts"
+                  >
                     Redeem Gift
                   </a>
                 </li>
@@ -146,12 +149,12 @@ const Header = ({ user }) => {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ms-auto">
               <li className="nav-item mx-4">
-                <a className="  text-white " href="/">
+                <a className="  text-white " href="/love-point/">
                   Home
                 </a>
               </li>
               <li className="nav-item mx-4">
-                <a className="  text-white " href="/login">
+                <a className="  text-white " href="/love-point/login">
                   Login / Register
                 </a>
               </li>

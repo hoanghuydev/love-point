@@ -23,7 +23,7 @@ function App() {
     );
   };
   return (
-    <Router basename="/love-point/">
+    <Router>
       <div className="App">
         <Routes>
           {publicRoutes.map((route, index) => RouteRender(route, index))}
