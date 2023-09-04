@@ -20,7 +20,7 @@ const Header = ({ user }) => {
           <div className="container-fluid">
             <a className="navbar-brand mt-2 mt-lg-0" href="#">
               <img
-                src="https://i.ibb.co/fXKK9L4/love-point-low-resolution-logo-color-on-transparent-background.png"
+                src="https://i.ibb.co/fXKK9L4-low-resolution-logo-color-on-transparent-background.png"
                 height="40"
                 alt="MDB Logo"
                 loading="lazy"
@@ -44,20 +44,17 @@ const Header = ({ user }) => {
             >
               <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ms-auto">
                 <li className="nav-item mx-4">
-                  <a className="nav-link text-white" href="/love-point/">
+                  <a className="nav-link text-white" href="/">
                     Home
                   </a>
                 </li>
                 <li className="nav-item mx-4">
-                  <a className="nav-link text-white" href="/love-point/mission">
+                  <a className="nav-link text-white" href="/mission">
                     Mission
                   </a>
                 </li>
                 <li className="nav-item mx-4">
-                  <a
-                    className="nav-link text-white"
-                    href="/love-point/redeemed-gifts"
-                  >
+                  <a className="nav-link text-white" href="/redeemed-gifts">
                     Redeem Gift
                   </a>
                 </li>
@@ -125,7 +122,7 @@ const Header = ({ user }) => {
         <div className="container-fluid">
           <a className="navbar-brand mt-2 mt-lg-0" href="#">
             <img
-              src="https://i.ibb.co/fXKK9L4/love-point-low-resolution-logo-color-on-transparent-background.png"
+              src="https://i.ibb.co/fXKK9L4-low-resolution-logo-color-on-transparent-background.png"
               height="40"
               alt="MDB Logo"
               loading="lazy"
@@ -149,12 +146,12 @@ const Header = ({ user }) => {
           >
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0 ms-auto">
               <li className="nav-item mx-4">
-                <a className="  text-white " href="/love-point/">
+                <a className="  text-white " href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item mx-4">
-                <a className="  text-white " href="/love-point/login">
+                <a className="  text-white " href="/login">
                   Login / Register
                 </a>
               </li>
