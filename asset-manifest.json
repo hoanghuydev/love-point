@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/love-point/static/css/main.2d9f0ef5.css",
+    "main.js": "/love-point/static/js/main.79c19862.js",
+    "static/js/787.884af467.chunk.js": "/love-point/static/js/787.884af467.chunk.js",
+    "static/media/fa-solid-900.ttf": "/love-point/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/saumui.jpg": "/love-point/static/media/saumui.3a0480ac1458d88ec431.jpg",
+    "static/media/PoetsenOne.ttf": "/love-point/static/media/PoetsenOne.023b96628ec5d9f42f23.ttf",
+    "static/media/fa-brands-400.ttf": "/love-point/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/fa-solid-900.woff2": "/love-point/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/fa-brands-400.woff2": "/love-point/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/header.png": "/love-point/static/media/header.b7da179ddcc05e1a7433.png",
+    "static/media/cloudgiftheader.png": "/love-point/static/media/cloudgiftheader.e2d08a8c24b0040b601b.png",
+    "static/media/fa-regular-400.ttf": "/love-point/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/fa-regular-400.woff2": "/love-point/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/footer.png": "/love-point/static/media/footer.2c395e55b0893b58fe79.png",
+    "static/media/cloudgiftfooter.png": "/love-point/static/media/cloudgiftfooter.ca42baa9a9a0aeb7abd6.png",
+    "static/media/fa-v4compatibility.ttf": "/love-point/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/love-point/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "index.html": "/love-point/index.html",
+    "main.2d9f0ef5.css.map": "/love-point/static/css/main.2d9f0ef5.css.map",
+    "main.79c19862.js.map": "/love-point/static/js/main.79c19862.js.map",
+    "787.884af467.chunk.js.map": "/love-point/static/js/787.884af467.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d9f0ef5.css",
+    "static/js/main.79c19862.js"
+  ]
+}
