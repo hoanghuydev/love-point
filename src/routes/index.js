@@ -6,10 +6,10 @@ const { default: Login } = require("~/page/Login");
 
 const publicRoutes = [
   { path: "/love-point/", component: Home },
-  { path: "/login", component: Login },
+  { path: "/love-point/login", component: Login },
 ];
 const privateRoutes = [
-  { path: "/mission", component: Mission },
-  { path: "/redeemed-gifts", component: RedeemedGifts },
+  { path: "/love-point/mission", component: Mission },
+  { path: "/love-point/redeemed-gifts", component: RedeemedGifts },
 ];
 export { publicRoutes, privateRoutes };
