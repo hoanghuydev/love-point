@@ -31,7 +31,7 @@ function App() {
         {JSON.parse(localStorage.getItem("isLoggedIn")) &&
           privateRoutes.map((route, index) => RouteRender(route, index))}
         <Route
-          path="/*"
+          path="*"
           element={
             <NoFooterLayout>
               <Page404 />
