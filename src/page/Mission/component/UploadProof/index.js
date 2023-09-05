@@ -36,7 +36,7 @@ const UploadProof = ({
         setReloadMission(!reloadMission);
       }
     } catch (error) {
-      console.log(er);
+      console.log(error);
     }
   };
   const handleImageChange = (event) => {
