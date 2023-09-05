@@ -8,24 +8,27 @@ const UploadProof = ({ idMission, setReloadMission, reloadMission }) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [File, setFile] = useState(null);
   const handleUploadProof = async () => {
-    console.log(selectedImage);
-    let urlProof = await missionServices.uploadProof(File, idMission);
-    const mission = await missionServices.requestReview(
-      urlProof.dowloadUrl,
-      idMission
-    );
-    if (mission.status === 1) {
-      toast.success("A review request has been submitted!", {
-        position: "top-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
-      setReloadMission(!reloadMission);
+    try {
+      let urlProof = await missionServices.uploadProof(File, idMission);
+      const mission = await missionServices.requestReview(
+        urlProof.dowloadUrl,
+        idMission
+      );
+      if (mission.status === 1) {
+        toast.success("A review request has been submitted!", {
+          position: "top-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+        setReloadMission(!reloadMission);
+      }
+    } catch (error) {
+      console.log(er);
     }
   };
   const handleImageChange = (event) => {
