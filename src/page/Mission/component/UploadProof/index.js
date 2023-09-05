@@ -10,7 +10,10 @@ const UploadProof = ({ idMission, setReloadMission, reloadMission }) => {
   const handleUploadProof = async () => {
     console.log(selectedImage);
     let urlProof = await missionServices.uploadProof(File, idMission);
-    const mission = await missionServices.requestReview(urlProof, idMission);
+    const mission = await missionServices.requestReview(
+      urlProof.dowloadUrl,
+      idMission
+    );
     if (mission.status === 1) {
       toast.success("A review request has been submitted!", {
         position: "top-right",
