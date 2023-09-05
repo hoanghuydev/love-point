@@ -73,9 +73,12 @@ const FormProof = ({
         <h2 className={cx("title") + " mt-4"}>{mission && mission.title}</h2>
         {mission && mission.description === "" && (
           <UploadProof
+            loading={loading}
+            setLoading={setLoading}
             idMission={idMission}
             setReloadMission={setReloadMission}
             reloadMission={reloadMission}
+            setShowForm={setShowForm}
           />
         )}
         {mission && mission.description !== "" && (

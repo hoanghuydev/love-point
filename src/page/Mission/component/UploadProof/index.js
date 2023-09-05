@@ -4,7 +4,14 @@ import styles from "./UploadProof.module.scss";
 import * as missionServices from "~/apiServices/missionServices";
 import { toast } from "react-toastify";
 const cx = classNames.bind(styles);
-const UploadProof = ({ idMission, setReloadMission, reloadMission }) => {
+const UploadProof = ({
+  loading,
+  setLoading,
+  idMission,
+  setReloadMission,
+  reloadMission,
+  setShowForm,
+}) => {
   const [selectedImage, setSelectedImage] = useState(null);
   const [File, setFile] = useState(null);
   const handleUploadProof = async () => {
@@ -14,6 +21,7 @@ const UploadProof = ({ idMission, setReloadMission, reloadMission }) => {
         urlProof.dowloadUrl,
         idMission
       );
+      setShowForm(false);
       if (mission.status === 1) {
         toast.success("A review request has been submitted!", {
           position: "top-right",
@@ -52,7 +60,21 @@ const UploadProof = ({ idMission, setReloadMission, reloadMission }) => {
         </div>
       )}
       <button className={cx("submit")} onClick={handleUploadProof}>
-        Confirm
+        {loading ? (
+          <div
+            className="spinner-border text-light"
+            role="status"
+            style={{
+              "--mdb-spinner-width": "1.4rem",
+              "--mdb-spinner-height": "1.4rem",
+              fontSize: "10px",
+            }}
+          >
+            <span className="visually-hidden">Loading...</span>
+          </div>
+        ) : (
+          "Confirm"
+        )}
       </button>
     </div>
   );
