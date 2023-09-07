@@ -48,7 +48,7 @@ const UploadProof = ({
   return (
     <div>
       <label className={cx("custom-file-upload")}>
-        <input type="file" accept="image/*" onChange={handleImageChange} />
+        <input type="file" accept="" onChange={handleImageChange} />
       </label>
       {selectedImage && (
         <div className={cx("img-preview") + " mx-auto mb-3"}>
